@@ -1,0 +1,8 @@
+<div class="main-section">
+  <app-side-bar (textRelaytoMainSection)="getTextToMainSection($event)"></app-side-bar>
+  <article>
+    <article class="content-display-size">
+      <div style="text-align: justify" innerHTML="{{searchedText | highlight: searchString}}"></div>
+    </article>
+  </article>
+</div>

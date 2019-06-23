@@ -1,0 +1,12 @@
+#add-btn {
+    height: 2.4rem;
+}
+section > textarea {
+    min-height: 4rem;
+    min-width: 60%;
+}
+.text-search {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    position: relative;
+}

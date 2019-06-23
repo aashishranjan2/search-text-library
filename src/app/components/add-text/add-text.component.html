@@ -1,0 +1,5 @@
+<section class="text-search">
+  <!-- <label for="add-text">Add text:</label> -->
+  <textarea type="text" id="add-text" [value]="newText" #textInput (keyup.enter)="storeText(textInput)" placeholder="Enter your text here.."></textarea>
+  <button (click)="storeText(textInput)" id="add-btn">Add Text</button>
+</section>

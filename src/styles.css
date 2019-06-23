@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    width: 100%;
+    margin: 0;
+  }
+  .container {
+    background: #656568;
+    min-height: 5rem;
+    margin-top: -8px;
+  }
+  label {
+    display: block;
+    font: 1rem "Fira Sans", sans-serif;
+  }
+  input {
+    height: 2rem;
+    width: 20%;
+  }
+  input,
+  label {
+    margin: 0.4rem 0 0 0;
+  }
+  article {
+    text-align: center;
+  }
+  section > input {
+    height: 2rem;
+    width: 60%;
+  }
+  button {
+    height: 2rem;
+  }
+  .main-section {
+    grid-template-columns: 30% 70%;
+    display: grid;
+  }
+  .search-right {
+    margin: 0 5%;
+  }
+  .scroller {
+    max-height: 30rem;
+    min-height: 30rem;
+    overflow: auto;
+  }
+  .content-display-size {
+    font: 1rem "Fira Sans", sans-serif;
+    margin: 3%;
+  }
+  .active {
+    border: 1px solid blueviolet;
+  }

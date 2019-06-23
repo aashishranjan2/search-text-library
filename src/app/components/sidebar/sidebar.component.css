@@ -1,0 +1,26 @@
+.content-wrapper {
+  margin: 0;
+  padding: 0.3rem;
+  background-color: #eee;
+  font: 1rem "Fira Sans", sans-serif;
+}
+
+.content-wrapper > h1,
+.text-list {
+  margin: 0.5rem;
+  padding: 0.3rem;
+  font-size: 1rem;
+}
+
+.text-list {
+  background: #ffffff;
+  padding: 10px;
+  cursor: pointer;
+  text-align: justify;
+}
+
+.text-list > div {
+  margin: 0.2rem;
+  font-size: 1rem;
+  padding-right: 1.25rem;
+}

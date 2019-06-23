@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="search-right">
+    <label for="text-search" class="text-font">Search string from text:</label>
+    <input
+      type="search"
+      id="text-search"
+      [value]="searchedText"
+      #searchedInput
+      placeholder="Search string.."
+      (keyup.enter)="textHighlight(searchedInput)"/>
+    <button (click)="textHighlight(searchedInput)">Search</button>
+  </div>
+</div>

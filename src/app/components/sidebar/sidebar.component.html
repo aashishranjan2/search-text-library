@@ -1,0 +1,10 @@
+<article class="content-wrapper">
+    <app-add-text (textRelay)="getNewText($event)"></app-add-text>
+  <h1 *ngIf="textList.length > 0">Texts!!</h1>
+  <article class="scroller" id="active-ele">
+    <div class="text-list" *ngFor="let text of textList; let i = index" id={{i}} #id>
+            <i class="material-icons" style="float: right" (click)="deleteText(id)">close</i>
+      <div (click)="fetchTextToMainSection(text)" innerHTML="{{text | highlight: searchString}}"></div>
+      </div>
+  </article>
+</article>
